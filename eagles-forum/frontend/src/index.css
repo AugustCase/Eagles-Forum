@@ -1,0 +1,46 @@
+/* Reset some default styles */
+html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* General layout helpers */
+h1, h2, h3, h4, h5 {
+  margin: 0.5rem 0;
+}
+
+input, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+body {
+  background-color: #fdf6e3; /* Creamy vintage */
+  color: #3c2f2f;            /* Dark earthy text */
+}
+
+button {
+  background-color: #a97142; /* Leather brown */
+}
+
+button:hover {
+  background-color: #8c5c32;
+}
+
+a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
